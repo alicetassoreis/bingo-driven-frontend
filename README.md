@@ -15,7 +15,7 @@ Interface do usuário para o sistema de bingo.
 
 docker build -t bingo-frontend .
 
-docker run -p 3000:3000 bingo-frontend
+docker run -p 3000:80 bingo-frontend
 
 
 ## Docker Compose
